@@ -1,0 +1,108 @@
+var starttimeofSlide;function PTSubscribeCaller()
+{
+ if (!IsPNEnabled()) 
+ return;  Subscribe("PRCSEVENTS", PTProcessNotif); }
+
+
+function PTHideFunc()
+{
+ document.getElementById("PT_POPUPNOTIFICATION").className="ps_popupnotification close psc_hidden"; starttimeofSlide = "";}
+
+
+function PTDrawPopUp(EventData) {
+
+ var e = document.getElementById("PT_POPUPNOTIFICATION"); if(isFModeLayout())
+ {
+ var w = window.innerWidth; if(w < 376)
+ {
+ document.getElementById("PT_POPUPNOTIFICATION").style.width= "300px"; document.getElementById("pt_leftpartpopupwindow").style.display="none"; document.getElementById("PT_POPUPNOTIFICATION").style.height = ""; }
+
+ else if(w < 436)
+ document.getElementById("PT_POPUPNOTIFICATION").style.width= "300px"; else
+ document.getElementById("PT_POPUPNOTIFICATION").style.width= "400px"; }
+
+ var prcsInstance = GetJSONObjectValue(EventData, "PRCSINSTANCE"); var prcsDescText = GetJSONObjectValue(EventData, "PRCSDESC"); var usrText = GetJSONObjectValue(EventData, "PRCSNLSUSER") + " " + GetJSONObjectValue(EventData, "PRCSUSER"); var statusState = GetJSONObjectValue(EventData, "PRCSSTATUS"); var nlsmsg = GetJSONObjectValue(EventData, "PRCSNLSMSG"); var nlsuseraction = GetJSONObjectValue(EventData, "PRCSNLSUSER"); var reportLink = GetJSONObjectValue(EventData, "PRCSLOCATION"); var prcsNotifyType = GetJSONObjectValue(EventData, "PRCSNOTIFYTYPE"); var prcsPopup = GetJSONObjectValue(EventData, "PRCSPOPUP"); var timerdelaySlide =10000; document.getElementById("pt_popupclose").addEventListener("click", function(){
+  document.getElementById("PT_POPUPNOTIFICATION").style.display = "none"; }); document.getElementById("pt_popupwindowimage").height = "48"; document.getElementById("pt_popupwindowimage").width = "48"; switch(statusState)
+ {
+ case "1":
+ case "2":
+ case "3":
+ case "4":
+ case "5":
+ case "6":
+ case "7":
+ case "8":
+ case "10":
+ case "11": 
+ case "16":
+ case "17":
+ case "18":
+ case "19":
+ case "104":
+ if (prcsNotifyType == "W" && prcsPopup=="Y" )
+ {
+ document.getElementById("pt_popupwindowimage").src = "https://iuself.iu.edu/cs/SSERV/cache/PT_PROCESSING_FMODE_1.gif"; if(statusState == "10")
+ document.getElementById("pt_popupwindowimage").src = "https://iuself.iu.edu/cs/SSERV/cache/PT_CANCEL_32_1.JPG"; document.getElementById("pt_leftpartpopupwindow").style = "float:left;"; if(document.getElementById("pt_popupwinprocessdescr"))
+ document.getElementById("pt_popupwinprocessdescr").innerHTML = prcsDescText; if(document.getElementById("pt_popupwinstatus"))
+ document.getElementById("pt_popupwinstatus").innerHTML = nlsmsg; document.getElementById("pt_popupwinuser").innerHTML = ""; e.className = "ps_popupnotification"; e.className = "ps_popupnotification open"; starttimeofSlide = new Date(); PTDrawPopUp.timerid = window.setTimeout(PTHideFunc,timerdelaySlide);  }
+ break; case "9":
+
+  
+ if (prcsNotifyType == "W" )
+ {
+ document.getElementById("pt_popupwindowimage").src = "https://iuself.iu.edu/cs/SSERV/cache/PS_APPROVE_ICN_1.gif"; document.getElementById("pt_popupwindowimage").height = "48"; document.getElementById("pt_popupwindowimage").width = "48"; document.getElementById("pt_leftpartpopupwindow").style = "float:left;"; if(document.getElementById("pt_popupwinprocessdescr"))
+ document.getElementById("pt_popupwinprocessdescr").innerHTML = prcsDescText; if(document.getElementById("pt_popupwinstatus"))
+ document.getElementById("pt_popupwinstatus").innerHTML = nlsmsg; if(document.getElementById("pt_popupwinuser"))
+ document.getElementById("pt_popupwinuser").innerHTML = usrText; e.className = "ps_popupnotification"; e.className = "ps_popupnotification open"; starttimeofSlide = new Date(); PTDrawPopUp.timerid = window.setTimeout(PTHideFunc,timerdelaySlide);  }
+ break; case "105":
+ if(reportLink && prcsPopup=="Y" )
+  {
+ document.getElementById("pt_popupwindowimage").src = "https://iuself.iu.edu/cs/SSERV/cache/PTNUI_FLDR_ICN_1.png"; document.getElementById("pt_popupwinprocessdescr").innerHTML = prcsDescText; document.getElementById("pt_popupwinstatus").innerHTML = nlsmsg; document.getElementById("pt_popupwinuser").innerHTML = usrText; document.getElementById("pt_leftpartpopupwindow").style = "float:left;"; if(document.getElementById("pt_popupwinprocessdescr"))
+ {
+ var divHTML = document.getElementById("pt_popupwinprocessdescr"); divHTML.innerHTML = ""; var newNode = document.createElement("a"); newNode.setAttribute("id","ReportLink"); newNode.setAttribute("href","#"); divHTML.appendChild(newNode); document.getElementById("ReportLink").innerHTML = prcsDescText; document.getElementById("ReportLink").addEventListener("click", function(){
+   window.open(reportLink);  }); }
+ e.className = "ps_popupnotification"; e.className = "ps_popupnotification open"; starttimeofSlide = new Date(); PTDrawPopUp.timerid = window.setTimeout(PTHideFunc,timerdelaySlide);  }
+ else if ( prcsPopup=="Y" )
+ {
+ document.getElementById("pt_popupwindowimage").src = "https://iuself.iu.edu/cs/SSERV/cache/PTNUI_FLDR_ICN_1.png";  document.getElementById("pt_popupwinprocessdescr").innerHTML = prcsDescText; document.getElementById("pt_popupwinstatus").innerHTML = nlsmsg; document.getElementById("pt_popupwinuser").innerHTML = usrText; e.className = "ps_popupnotification"; e.className = "ps_popupnotification open"; starttimeofSlide = new Date(); PTDrawPopUp.timerid = window.setTimeout(PTHideFunc,timerdelaySlide);  }
+ break;  }
+
+}
+
+
+var w;function PTProcessNotif(EventName, EventData)
+{
+ if(EventName == "PRCSEVENTS")
+ {
+ PTProcessNotif.queue = []; PTProcessNotif.queue.push(EventData); var i = PTProcessNotif.queue.shift(); PTDrawPopUp(i); }
+}
+
+
+function PTCreateDivElement()
+{
+
+ var newNode = document.createElement("div"); newNode.id = "PT_POPUPNOTIFICATION"; newNode.setAttribute("class","ps_popupnotification psc_hidden"); newNode.innerHTML = "<div id='blankline' style='height:13px'></div><div id='pt_leftpartpopupwindow' style='float:left; width:68px'> <img id='pt_popupwindowimage' src='' > </div><img src='https://iuself.iu.edu/cs/SSERV/cache/PT_MODAL_CLOSE_NUI_1.svg' id= 'pt_popupclose' style='float:right; margin:0px 10px 0px 0px;'><div id='pt_popupwinprocessdescr' role='heading' aria-level='1' class='ps_popupnotificationDescr'></div><div id='pt_popupwinuser' class='ps_popupnotificationpt_popupwinuser' class='ps_popupnotificationpt_popupwinuser'></div><div id='pt_popupwinstatus' class='ps_popupnotificationpt_popupwinstatus'></div>"; var divsection = document.getElementById("ptifrmtemplate"); var x = document.getElementsByClassName("ps_box-toolshiddens"); if(divsection)
+ divsection.appendChild(newNode); else if(x.length > 0)
+ x[0].appendChild(newNode); else
+ return;}
+
+
+function PTPopupMain(){
+ PTCreateDivElement(); var elem = document.getElementById('PT_POPUPNOTIFICATION'); if (elem != null)
+  elem.setAttribute("aria-live", "assertive"); if(document.getElementById("PT_POPUPNOTIFICATION") || document.getElementById("ptifrmtemplate"))
+ {
+ PTSubscribeCaller(); }
+}
+
+PTDrawPopUp.timerid = 0;addEvent(window, 'load', function(){ popupnotification() });function addEvent(element, eventName, fn) {
+ if(isFModeLayout())
+ return; if (!IsPNEnabled())
+ return;  if (element.addEventListener)
+ element.addEventListener(eventName, fn, false); else if (element.attachEvent)
+ element.attachEvent('on' + eventName, fn);}
+
+
+function popupnotification()
+{
+ if(!window.jQuery)
+ PTPopupMain();}

@@ -1,0 +1,101 @@
+﻿Daniel Ruiz
+5/28/19
+HW04 - C343
+
+
+TextBook Exercises
+
+1.
+
+7.18
+(a)  Finding the minimum value is an operation best accomplished by first sorting the list of numbers.
+We can sort the list of numbers using merge sort which has a worst case scenario of O(n log n)
+Once the array is sorted the minimum value will be in the first or last position depending if
+the collection is sorted in ascending or descending order.  This will take O(1) since the position will
+be known based on how we ordered it
+
+(b)  Finding the maximum value is an operation best accomplished by first sorting the list of numbers.
+We can sort the list of numbers using merge sort which has a worst case scenario of O(n log n)
+Once the array is sorted the maximum value will be in the first or last position depending if
+the collection is sorted in ascending or descending order.  This will take O(1) since the position will
+be known based on how we ordered it
+
+(c)  This operation would be best completed without sorting.  Regardless of whether the numbers are sorted or not
+the total sum of all numbers in the list 
+
+(d) Finding the median value is best done by sorting which takes O(n log n).  Once sorted it is known the median is directly in the middle
+of the list.  This can be extracted in constant time.
+
+(e)  This is better done without sorting.  All elements will need to be checked before it can reasonably be assumed
+that one number appears more time then other numbers.  This would be done in O(n)
+
+7.16
+(a)
+We can grab the middle element
+compare it to the left to see if it is less than
+	if it is swap
+then compare it to the right
+	if it is greater than swap
+----
+sorted
+
+
+int[] array = new int[3];
+//assume full
+
+int compare = array[1];
+
+if(compare < array[0]){
+	swap(compare, array[0]);
+	compare = array[0];
+}
+if(compare > array[2]){
+	swap(compare, array[2]);
+}
+
+bestCase = 3 comparisons, 0 swaps
+averageCase = 3 comparisons, 1 swap
+worstCase = 3 comparisons, 2 swaps
+
+(b)
+
+int[] array = new int[5];
+//assume full
+
+sort(int i, int j){
+	if(i > j){
+	swap(i, j)
+	}
+}
+
+break array into sub arrrays from index 0 - 1, 2, 3-4
+sort these arrays with the sort function i wrote above
+use merge sort to combine the arrays
+
+
+
+bestCase = 7 comparisons, 0 swaps
+averageCase = 7 comparisons, 2 swap
+worstCase = 7 comparisons, 3 swaps
+
+
+(c)
+
+break array into half
+until it is in arrays of 2
+
+8
+2 - 4 element arrays
+4 - 2 element arrays
+
+sort these
+
+then merge sorted lists back together
+
+bestCase = 7 comparisons, 0 swaps 
+averageCase = 7 comparisons 3 swaps
+worstCase = 7 comparisons 7 swaps
+
+
+
+

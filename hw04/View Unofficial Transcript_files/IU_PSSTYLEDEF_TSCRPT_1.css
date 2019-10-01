@@ -1,0 +1,202 @@
+.portlet-form-button,.portlet-form-label,.PSHEADERTOOLBARFRAME,.PSIMAGE,.PSSTATICIMAGE,.RESET{}
+.PTNAVSEARCHDIVIDER{background-color:rgb(115,130,181);margin-top:2px;margin-bottom:2px;border-width:1px;border-top-color:rgb(255,255,255);border-bottom-color:rgb(115,130,181);border-left-color:rgb(115,130,181);border-right-color:rgb(115,130,181);border-style:solid;}
+.LEVEL1{background-color:rgb(153,153,102);}
+.PTNAVSELPARENTEDGE{background-color:rgb(170,185,211);}
+.PSACEPRF{background-color:rgb(192,192,192);border-width:2px;border-color:rgb(255,255,255);border-style:outset;}
+.portlet-menu,.PTNAVBACKGROUND,.PTNAVSELCHILDEDGEDK{background-color:rgb(211,220,232);}
+.PSACEROWBLANKNB{background-color:rgb(225,225,225);}
+.PSACEROWBLANK{background-color:rgb(225,225,225);border-top-width:1px;border-top-color:rgb(255,255,255);border-top-style:solid;}
+.PAHEADERTOOLBARBODY{background-color:rgb(233,237,244);border-top-style:none;border-bottom-style:none;border-left-style:none;border-right-style:none;}
+.PSACECOMBOBUTTON{background-color:rgb(234,242,255);vertical-align:top;border-left-width:1px;border-left-color:rgb(120,172,255);border-left-style:solid;display:inline-block;cursor:pointer;}
+.PALEGENDBACKGROUND{background-color:rgb(242,244,240);}
+.PAGROUPBOXLEVEL1,.PAGROUPBOXLEVEL1WBO,.PAGROUPBOXLEVEL2,.PAGROUPBOXLEVEL2WBO,.PAGROUPBOXLEVEL3,.PAGROUPBOXLEVEL3WBO{background-color:rgb(242,244,240);border-bottom-width:1px;border-left-width:1px;border-right-width:1px;border-bottom-color:rgb(40,66,119);border-left-color:rgb(40,66,119);border-right-color:rgb(40,66,119);border-bottom-style:solid;border-left-style:solid;border-right-style:solid;}
+.PAGROUPBOXLEVEL1NBO,.PAGROUPBOXLEVEL2NBO,.PAGROUPBOXLEVEL3NBO{background-color:rgb(242,244,240);border-top-style:none;border-bottom-style:none;border-left-style:none;border-right-style:none;}
+.PSLEVEL1SCROLLAREABODY,.PSLEVEL2SCROLLAREABODY,.PSLEVEL3SCROLLAREABODY{background-color:rgb(242,244,240);margin:1px;border-width:1px;border-color:rgb(40,66,119);border-style:solid;}
+.PSPAGECONTAINER,.PSPROCESSING,.PTNAVSELCHILDEDGELT,.PTNAVSELPARENTBK{background-color:rgb(255,255,255);}
+.PAHEADERTOOLBARFRAME{background-color:rgb(74,89,140);border-top-style:none;border-bottom-style:none;border-left-style:none;border-right-style:none;}
+.PSACENOBORDER{background-color:rgb(92,133,179);}
+.PSSRCHRESULTSHDR{background-color:rgb(92,133,179);border-width:1px;border-top-color:rgb(214,223,239);border-bottom-color:rgb(102,140,189);border-left-color:rgb(214,223,239);border-right-color:rgb(102,140,189);border-style:solid;}
+.PSACEMYSC{background-color:rgb(92,133,179);vertical-align:top;}
+.PSACECOL{background-color:rgb(92,133,179);vertical-align:top;text-align:right;}
+.portlet-form-field,.LEVEL2,.LEVEL3{background-repeat:repeat-y;}
+.PSQRYTABLELEFTBORDER{border-left-width:1px;border-left-color:rgb(213,220,238);border-left-style:solid;}
+.PSACESHDV{border-right-width:1px;border-right-color:rgb(213,220,238);border-right-style:solid;}
+.PAFRAMELEVEL3NBO{border-style:solid;}
+.PABACKGROUNDINVISIBLE,.PAFRAMELEVEL1NBO,.PAFRAMELEVEL2NBO,.PSFRAMENBO,.PSLEVEL1GRIDNBO,.PSLEVEL2GRIDNBO,.PSLEVEL3GRIDNBO{border-top-style:none;border-bottom-style:none;border-left-style:none;border-right-style:none;}
+.PSRIGHTLEFTSCROLL{border-top-width:0px;border-bottom-width:0px;border-style:solid;}
+.PSHORIZONTALRULE{border-top-width:1px;border-bottom-width:1px;border-top-color:rgb(211,220,232);border-bottom-color:rgb(145,157,195);border-top-style:solid;border-bottom-style:solid;}
+.PAHORIZONTALRULELEVEL1,.PAHORIZONTALRULELEVEL2,.PAHORIZONTALRULELEVEL3{border-top-width:1px;border-bottom-width:1px;border-top-color:rgb(213,220,238);border-bottom-color:rgb(145,157,195);border-top-style:solid;border-bottom-style:solid;}
+.PACFGRIDFOOT{border-top-width:1px;border-top-color:rgb(40,66,119);border-top-style:solid;}
+.portlet-menu-cascade-item-s{border-width:1px;border-color:rgb(204,204,204);border-style:solid;}
+.PAFRAMELEVEL1,.PAFRAMELEVEL1WBO,.PAFRAMELEVEL2,.PAFRAMELEVEL2WBO,.PAFRAMELEVEL3,.PAFRAMELEVEL3WBO,.PSFRAME,.PSFRAMEWBO,.PTPAGELET,.PTSELECTBODY{border-width:1px;border-color:rgb(40,66,119);border-style:solid;}
+.PSLEVEL1GRIDWBO,.PSLEVEL2GRIDWBO,.PSLEVEL3GRIDWBO{border-width:1px;border-color:rgb(74,89,140);border-style:solid;}
+.portlet-menu-description{border-width:2px;border-color:rgb(115,130,181);border-style:solid;}
+.PSACEPRFDIVHID,.PSACEPRFIN{border-width:2px;border-color:rgb(255,255,255);border-style:outset;}
+.portlet-section-header{border-width:thin;border-color:rgb(184,176,144);border-style:solid;}
+.PSTRELLINKSBODYNARROW{border-width:thin;border-color:rgb(40,66,119);border-style:solid;}
+.PSTRELLINKSBODYWIDE{border-width:thin;border-color:rgb(40,66,119);border-style:solid;width:100%;}
+.MUTE{color:rgb(153,153,153);}
+.HILEFT2{color:rgb(229,229,204);}
+.EDGE,.HILEFT1{color:rgb(255,255,255);}
+.PTNAVSELCHILDBK,.PTNAVSELFOLDERBK{color:rgb(255,255,255);background-color:rgb(74,113,173);border-top-width:1px;border-bottom-width:1px;border-top-color:rgb(40,66,119);border-bottom-color:rgb(40,66,119);border-top-style:solid;border-bottom-style:solid;}
+.PSPGIWCPUB{display:none;}
+.portlet-menu-item-hover-s{font-family:Arial,Helvetica,sans-serif;font-size:10pt;font-weight:bold;color:rgb(255,255,255);background-color:rgb(115,130,181);padding-bottom:2px;padding-left:2px;padding-right:2px;border-width:thin;border-color:rgb(115,130,181);border-style:solid;}
+.PTSELECTHEADER{font-family:Arial,Helvetica,sans-serif;font-size:10pt;font-weight:bold;color:rgb(255,255,255);background-color:rgb(74,89,140);padding-bottom:2px;padding-left:2px;padding-right:2px;border-width:1px;border-color:rgb(74,89,140);border-style:solid;}
+.portlet-menu-cascade-item{font-family:Arial,Helvetica,sans-serif;font-size:10pt;padding-bottom:2px;padding-left:2px;padding-right:2px;border-width:thin;border-color:rgb(115,130,181);border-style:solid;}
+.HEADERLINKACTIVE{font-family:Arial,Helvetica,sans-serif;font-size:8pt;color:rgb(255,255,255);text-decoration: underline;}
+.portlet-menu-item-hover{font-family:Arial,Helvetica,sans-serif;font-size:9pt;color:rgb(204,0,51);text-decoration: underline;text-indent:3px;}
+.HEADERLINK{font-family:Arial,Helvetica,sans-serif;font-size:9pt;color:rgb(255,255,255);background-color:rgb(95,110,175);}
+.PTPAGELETHEADER{font-family:Arial,Helvetica;font-size:10pt;font-weight:bold;color:rgb(255,255,255);background-color:rgb(74,89,140);padding-left:2px;border-color:rgb(74,89,140);}
+.PTPAGELETBODY{font-family:Arial,Helvetica;font-size:10pt;margin-left:2px;}
+.PAADDITIONALINSTRUCTHOVER,.PAADDITIONALINSTRUCTIONS:HOVER{font-family:Arial,Helvetica;font-size:8pt;color:rgb(51,51,204);text-decoration: underline;}
+.PTNAVSEARCHLABEL{font-family:Arial,Helvetica;font-size:8pt;font-weight:bold;color:rgb(0,0,0);background-color:rgb(211,220,232);padding-top:3px;padding-bottom:1px;padding-left:2px;}
+.portlet-menu-caption{font-family:Arial,Helvetica;font-size:8pt;font-weight:bold;color:rgb(0,0,0);background-color:rgb(211,220,232);text-align:left;padding-top:3px;padding-bottom:1px;padding-left:2px;}
+.PAADDITIONALINSTRUCTACTIVE,.PAADDITIONALINSTRUCTIONS:LINK,.PAADDITIONALINSTRUCTIONS:ACTIVE{font-family:Arial,Helvetica;font-size:8pt;font-weight:normal;font-style:normal;color:rgb(51,51,204);}
+.PSNAVPARENTLINK,.PSNAVPARENTLINK:ACTIVE,.PSNAVPARENTLINK:VISITED{font-family:Arial,Helvetica;font-size:9pt;color:rgb(0,0,0);text-decoration: none;}
+.PTNAVLINKHOVER,.PSNAVPARENTLINK:HOVER,.PTNAVLINK:HOVER{font-family:Arial,Helvetica;font-size:9pt;color:rgb(0,51,153);text-decoration: underline;}
+.PTNAVSELCHILDLINK,.PTNAVSELPARENTLINK{font-family:Arial,Helvetica;font-size:9pt;color:rgb(255,255,255);text-decoration: none;}
+.portlet-menu-item-selected{font-family:Arial,Helvetica;font-size:9pt;color:rgb(255,255,255);text-decoration: none;text-indent:3px;}
+.portlet-menu-item,.PTNAVLINK,.PTNAVLINK:ACTIVE,.PTNAVLINK:VISITED{font-family:Arial,Helvetica;font-size:9pt;color:rgb(74,89,140);text-decoration: underline;}
+.PTBREADCRUMB{font-family:Arial,helvetica,sans-serif;font-size:9pt;font-weight:normal;color:rgb(51,51,204);}
+.PSACEODDROW{font-family:Arial,sans-serif,;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(244,244,232);border-top-width:1px;border-left-width:1px;border-top-color:rgb(128,128,128);border-left-color:rgb(128,128,128);border-top-style:solid;border-left-style:solid;}
+.PSPAGE{font-family:Arial,sans-serif;background-color:rgb(255,255,255);margin-top:0px;margin-left:2px;}
+.PSSRCHPAGE{font-family:Arial,sans-serif;background-color:rgb(255,255,255);margin-top:1px;margin-left:6px;}
+.PAGROUPBOXLABELINVISIBLE{font-family:Arial,sans-serif;font-size:0%;font-weight:normal;font-style:normal;color:rgb(242,244,240);border-top-style:none;border-bottom-style:none;border-left-style:none;border-right-style:none;}
+.MID{font-family:Arial,sans-serif;font-size:10pt;}
+.STRONG{font-family:Arial,sans-serif;font-size:11pt;font-weight:bold;}
+.PACALENDARDAYNUMDISABLED{font-family:Arial,sans-serif;font-size:11pt;font-weight:bold;font-style:normal;color:rgb(153,153,153);}
+.portlet-section-subheader{font-family:Arial,sans-serif;font-size:11pt;font-weight:bold;font-style:normal;color:rgb(51,51,153);margin-top:1em;margin-bottom:0.3em;}
+.PACALENDARDAYNUM,.PSSRCHTITLE,.PSQRYTITLE{font-family:Arial,sans-serif;font-size:11pt;font-weight:bold;font-style:normal;color:rgb(74,89,140);}
+.PATRANSACTIONTITLE{font-family:Arial,sans-serif;font-size:11pt;font-weight:bold;font-style:normal;color:rgb(74,89,140);border-bottom-width:2px;border-bottom-color:rgb(74,89,140);border-bottom-style:solid;width:100%;}
+.PSSRCHSUBTITLE{font-family:Arial,sans-serif;font-size:11pt;font-weight:bold;font-style:normal;color:rgb(74,89,140);margin-top:1em;margin-bottom:0.3em;}
+.PSACEWARN{font-family:Arial,sans-serif;font-size:11pt;font-weight:normal;font-style:normal;background-color:rgb(253,238,170);border-width:1px;border-color:rgb(146,108,36);border-style:solid;}
+.PALEVEL0PRIMARY{font-family:Arial,sans-serif;font-size:11pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);}
+.PSACEHELP{font-family:Arial,sans-serif;font-size:11pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(253,238,170);border-width:2px;border-color:rgb(146,108,36);border-style:groove;}
+.portlet-section-selected{font-family:Arial,sans-serif;font-size:14pt;font-weight:bold;font-style:normal;color:rgb(102,0,102);}
+.PAPAGETITLE,.PSPTABLABEL,.PSSRCHACTION{font-family:Arial,sans-serif;font-size:14pt;font-weight:bold;font-style:normal;color:rgb(74,89,140);}
+.PASTEPBYSTEPTITLE{font-family:Arial,sans-serif;font-size:14pt;font-weight:bold;font-style:normal;color:rgb(74,89,140);border-top-width:2px;border-top-color:rgb(74,89,140);border-top-style:solid;width:600px;}
+.PSACELINK{font-family:Arial,sans-serif;font-size:8pt;color:rgb(0,0,0);text-decoration: none;}
+.PSACELINKHOVER,.PSACELINK:HOVER{font-family:Arial,sans-serif;font-size:8pt;color:rgb(255,69,0);text-decoration: none;}
+.portlet-table-header,.PSGRIDCOLUMNHDR,.PSGRIDCOLUMNHDRSORTED,.PSGRIDCOLUMNHDRSORTNONE,.PSLEVEL1GRIDCOLUMNHDR,.PSLEVEL2GRIDCOLUMNHDR,.PSLEVEL3GRIDCOLUMNHDR{font-family:Arial,sans-serif;font-size:8pt;font-weight:bold;color:rgb(255,255,255);background-color:rgb(92,133,179);border-width:1px;border-top-color:rgb(213,220,238);border-bottom-color:rgb(40,66,119);border-left-color:rgb(213,220,238);border-right-color:rgb(40,66,119);border-style:solid;}
+.PAGRIDHEADERTXT,.PSLEVEL1GRIDCOLUMNHDRTXT,.PSLEVEL2GRIDCOLUMNHDRTXT,.PSLEVEL3GRIDCOLUMNHDRTXT,.PSSRCHRESULTSHDRTXT,.PTSRCHRESULTSHDRTXT,.PAGRIDHEADER:LINK,.PAGRIDHEADER:VISITED,.PAGRIDHEADERDISABLED,.PAGRIDHEADERTXT:LINK,.PAGRIDHEADERTXT:VISITED,.PSLEVEL1GRIDCOLUMNHDR:LINK,.PSLEVEL1GRIDCOLUMNHDR:VISITED,.PSLEVEL1GRIDCOLUMNHDRDISABLED,.PSLEVEL2GRIDCOLUMNHDR:LINK,.PSLEVEL2GRIDCOLUMNHDR:VISITED,.PSLEVEL2GRIDCOLUMNHDRDISABLED,.PSLEVEL3GRIDCOLUMNHDR:LINK,.PSLEVEL3GRIDCOLUMNHDR:VISITED,.PSLEVEL3GRIDCOLUMNHDRDISABLED,.PSSRCHRESULTSHDR:LINK,.PSSRCHRESULTSHDR:VISITED{font-family:Arial,sans-serif;font-size:8pt;font-weight:bold;color:rgb(255,255,255);border-top-style:none;border-bottom-style:none;border-left-style:none;border-right-style:none;}
+.PSQRYRESULTSHDR{font-family:Arial,sans-serif;font-size:8pt;font-weight:bold;font-style:normal;color:rgb(255,255,255);background-color:rgb(102,140,189);border-width:1px;border-top-color:rgb(213,220,238);border-bottom-color:rgb(40,66,119);border-left-color:rgb(213,220,238);border-right-color:rgb(40,66,119);border-style:solid;}
+.PSLEVEL1GRIDACTIVETAB,.PSLEVEL3GRIDACTIVETAB{font-family:Arial,sans-serif;font-size:8pt;font-weight:bold;font-style:normal;color:rgb(255,255,255);background-color:rgb(74,89,140);text-align:center;}
+.PAGRIDHEADER{font-family:Arial,sans-serif;font-size:8pt;font-weight:bold;font-style:normal;color:rgb(255,255,255);background-color:rgb(74,89,140);vertical-align:bottom;border-width:1px;border-top-color:rgb(213,220,238);border-bottom-color:rgb(40,66,119);border-left-color:rgb(213,220,238);border-right-color:rgb(40,66,119);border-style:solid;}
+.PSACESLICE{font-family:Arial,sans-serif;font-size:8pt;font-weight:normal;font-style:normal;background-color:rgb(242,244,240);}
+.portlet-msg-alert,.portlet-msg-success,.PAADDITIONALINSTRUCTDISABLED,.PAADDITIONALINSTRUCTIONS,.PAEXAMPLE,.PAADDITIONALINSTRUCTIONSDISABLED{font-family:Arial,sans-serif;font-size:8pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);}
+.PSPUSHBUTTONTBUPDATEMODE{font-family:Arial,sans-serif;font-size:8pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(252,252,181);background-repeat:no-repeat;background-position:2% 40%;padding-left:16px;width:100px;height:23px;cursor:hand;}
+.PSPUSHBUTTONTBCORRECTMODE,.PSPUSHBUTTONTBPREVINLIST,.PSPUSHBUTTONTBUPDATEALLMODE{font-family:Arial,sans-serif;font-size:8pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(252,252,181);background-repeat:no-repeat;background-position:2% 40%;padding-left:16px;width:105px;height:23px;cursor:hand;}
+.PSPUSHBUTTONTBNEXTINWORKLIST{font-family:Arial,sans-serif;font-size:8pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(252,252,181);background-repeat:no-repeat;background-position:2% 40%;padding-left:16px;width:107px;height:23px;cursor:hand;}
+.PSPUSHBUTTONTBRETURN{font-family:Arial,sans-serif;font-size:8pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(252,252,181);background-repeat:no-repeat;background-position:2% 40%;padding-left:16px;width:110px;height:23px;cursor:hand;}
+.PSPUSHBUTTONTBPREVINWORKLIST{font-family:Arial,sans-serif;font-size:8pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(252,252,181);background-repeat:no-repeat;background-position:2% 40%;padding-left:16px;width:127px;height:23px;cursor:hand;}
+.PSPUSHBUTTONTBADDMODE{font-family:Arial,sans-serif;font-size:8pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(252,252,181);background-repeat:no-repeat;background-position:2% 40%;padding-left:16px;width:48px;height:23px;cursor:hand;}
+.PSPUSHBUTTONTBSAVE{font-family:Arial,sans-serif;font-size:8pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(252,252,181);background-repeat:no-repeat;background-position:2% 40%;padding-left:16px;width:55px;height:23px;cursor:hand;}
+.PSPUSHBUTTONTBSENDNOTIFY{font-family:Arial,sans-serif;font-size:8pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(252,252,181);background-repeat:no-repeat;background-position:2% 40%;padding-left:16px;width:60px;height:23px;cursor:hand;}
+.PSPUSHBUTTONTBNEXTTAB,.PSPUSHBUTTONTBREFRESH{font-family:Arial,sans-serif;font-size:8pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(252,252,181);background-repeat:no-repeat;background-position:2% 40%;padding-left:16px;width:70px;height:23px;cursor:hand;}
+.PSPUSHBUTTONTBNEXTINLIST,.PSPUSHBUTTONTBSPELLCHECK{font-family:Arial,sans-serif;font-size:8pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(252,252,181);background-repeat:no-repeat;background-position:2% 40%;padding-left:16px;width:85px;height:23px;cursor:hand;}
+.PSPUSHBUTTONTBPOPUP{font-family:Arial,sans-serif;font-size:8pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(252,252,181);background-repeat:no-repeat;background-position:2% 40%;padding-left:16px;width:90px;height:23px;}
+.PSPUSHBUTTONTBPREVTAB{font-family:Arial,sans-serif;font-size:8pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(252,252,181);background-repeat:no-repeat;background-position:2% 40%;padding-left:16px;width:90px;height:23px;cursor:hand;}
+.PSPUSHBUTTONTBVIEWWORKLIST{font-family:Arial,sans-serif;font-size:8pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(252,252,181);background-repeat:no-repeat;background-position:2% 40%;padding-left:16px;width:95px;height:23px;cursor:hand;}
+.PSHEADERHYPERLINKD,.PSSRCHRESULTSHYPERLINKD,.PSHEADERHYPERLINKDISABLED,.PSLEVEL1GRIDLABELDISABLED,.PSLEVEL1GRIDNAVIGATIONBARDISABLED,.PSLEVEL1SCROLLAREAFOOTERDISABLED,.PSLEVEL1SCROLLAREAHEADERDISABLED,.PSLEVEL2GRIDLABELDISABLED,.PSLEVEL2GRIDNAVIGATIONBARDISABLED,.PSLEVEL2SCROLLAREAFOOTERDISABLED,.PSLEVEL2SCROLLAREAHEADERDISABLED,.PSLEVEL3GRIDLABELDISABLED,.PSLEVEL3GRIDNAVIGATIONBARDISABLED,.PSLEVEL3SCROLLAREAFOOTERDISABLED,.PSLEVEL3SCROLLAREAHEADERDISABLED,.PSSRCHRESULTSHYPERLINKDISABLED{font-family:Arial,sans-serif;font-size:8pt;font-weight:normal;font-style:normal;color:rgb(204,204,204);}
+.PSLEVEL1GRIDINACTIVETABHOVER,.PSLEVEL2GRIDINACTIVETABHOVER,.PSLEVEL3GRIDINACTIVETABHOVER,.PSLEVEL1GRIDINACTIVETAB:HOVER,.PSLEVEL2GRIDINACTIVETAB:HOVER,.PSLEVEL3GRIDINACTIVETAB:HOVER{font-family:Arial,sans-serif;font-size:8pt;font-weight:normal;font-style:normal;color:rgb(255,255,102);background-color:rgb(145,157,195);text-decoration: underline;}
+.PAHEADERTOOLBARTEXTSMALL,.PSHEADERHYPERLINK,.PSSRCHRESULTSHYPERLINK,.PSHEADERHYPERLINK:LINK,.PSHEADERHYPERLINK:ACTIVE,.PSHEADERHYPERLINK:VISITED,.PSHEADERHYPERLINK:HOVER,.PSLEVEL1GRIDLABEL:LINK,.PSLEVEL1GRIDLABEL:ACTIVE,.PSLEVEL1GRIDLABEL:VISITED,.PSLEVEL1GRIDNAVIGATIONBAR:LINK,.PSLEVEL1GRIDNAVIGATIONBAR:ACTIVE,.PSLEVEL1SCROLLAREAFOOTER:LINK,.PSLEVEL1SCROLLAREAFOOTER:ACTIVE,.PSLEVEL1SCROLLAREAHEADER:LINK,.PSLEVEL1SCROLLAREAHEADER:ACTIVE,.PSLEVEL1SCROLLAREAHEADER:VISITED,.PSLEVEL2GRIDLABEL:LINK,.PSLEVEL2GRIDLABEL:ACTIVE,.PSLEVEL2GRIDLABEL:VISITED,.PSLEVEL2GRIDNAVIGATIONBAR:LINK,.PSLEVEL2GRIDNAVIGATIONBAR:ACTIVE,.PSLEVEL2SCROLLAREAFOOTER:LINK,.PSLEVEL2SCROLLAREAFOOTER:ACTIVE,.PSLEVEL2SCROLLAREAHEADER:LINK,.PSLEVEL2SCROLLAREAHEADER:ACTIVE,.PSLEVEL2SCROLLAREAHEADER:VISITED,.PSLEVEL3GRIDLABEL:LINK,.PSLEVEL3GRIDLABEL:ACTIVE,.PSLEVEL3GRIDLABEL:VISITED,.PSLEVEL3GRIDNAVIGATIONBAR:LINK,.PSLEVEL3GRIDNAVIGATIONBAR:ACTIVE,.PSLEVEL3SCROLLAREAFOOTER:LINK,.PSLEVEL3SCROLLAREAFOOTER:ACTIVE,.PSLEVEL3SCROLLAREAHEADER:LINK,.PSLEVEL3SCROLLAREAHEADER:ACTIVE,.PSLEVEL3SCROLLAREAHEADER:VISITED,.PSSRCHRESULTSHYPERLINK:LINK,.PSSRCHRESULTSHYPERLINK:ACTIVE,.PSSRCHRESULTSHYPERLINK:VISITED,.PSQRYHYPERLINK:LINK{font-family:Arial,sans-serif;font-size:8pt;font-weight:normal;font-style:normal;color:rgb(255,255,255);}
+.PSLEVEL1GRIDINACTIVETAB,.PSLEVEL2GRIDINACTIVETAB,.PSLEVEL3GRIDINACTIVETAB{font-family:Arial,sans-serif;font-size:8pt;font-weight:normal;font-style:normal;color:rgb(255,255,255);background-color:rgb(120,156,202);text-decoration: none;}
+.PSLEVEL2GRIDACTIVETAB{font-family:Arial,sans-serif;font-size:8pt;font-weight:normal;font-style:normal;color:rgb(255,255,255);background-color:rgb(74,89,140);text-decoration: none;}
+.PAADDITIONALINSTRUCTVISITED,.PAADDITIONALINSTRUCTIONS:VISITED{font-family:Arial,sans-serif;font-size:8pt;font-weight:normal;font-style:normal;color:rgb(51,51,204);}
+.SMALL{font-family:Arial,sans-serif;font-size:9pt;}
+.KNOCKOUT{font-family:Arial,sans-serif;font-size:9pt;color:rgb(51,51,204);}
+.portlet-form-field-label{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;}
+.PSGRIDCOLUMNHDRSORTNONED{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;color:rgb(0,0,0);background-color:rgb(92,133,179);border-right-width:1px;border-right-color:rgb(255,255,255);}
+.PTBREADCRUMBCUR{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;color:rgb(0,0,0);text-decoration: none;}
+.PAHELPFIELDVALUE{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:italic;color:rgb(51,51,204);}
+.PAGROUPDIVIDERBODY{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;background-color:rgb(242,244,240);border-width:1px;border-color:rgb(40,66,119);border-style:solid;}
+.PSGROUPBOXNBO{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;border-top-style:none;border-bottom-style:none;border-left-style:none;border-right-style:none;}
+.PSGROUPBOXWBO{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;border-width:1px;border-color:rgb(74,89,140);border-style:solid;}
+.portlet-form-input-field,.portlet-msg-error,.portlet-msg-status,.portlet-section-text,.PABOLDTEXT,.PSCHECKBOX,.PSDROPDOWNLABEL,.PSEDITBOXLABEL,.PSLONGEDITLABEL,.PSRADIOBUTTON,.PSSRCHCHECKBOX,.PSSRCHDROPDOWNLABEL,.PSSRCHEDITBOXLABEL{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(0,0,0);}
+.PSGROUPBOX{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(0,0,0);background-color:rgb(242,244,240);border-bottom-width:1px;border-left-width:1px;border-right-width:1px;border-bottom-color:rgb(40,66,119);border-left-color:rgb(40,66,119);border-right-color:rgb(40,66,119);border-top-style:none;border-bottom-style:solid;border-left-style:solid;border-right-style:solid;}
+.PAGROUPBOX,.PAGROUPBOXWBO,.PASEARCHBOXBODY{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(0,0,0);background-color:rgb(242,244,240);border-width:1px;border-color:rgb(40,66,119);border-style:solid;}
+.PSTREENODESELECTED{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(0,0,0);background-color:rgb(254,199,143);}
+.PSPGCHARTFILTERNAME{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(0,0,0);background-color:rgb(255,255,255);vertical-align:top;text-align:right;width:100px;height:17px;display:inline-block;overflow:hidden;}
+.PSPGCHARTFILTERNAME_NARO{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(0,0,0);background-color:rgb(255,255,255);vertical-align:top;text-align:right;width:60px;height:17px;display:inline-block;overflow:hidden;}
+.PAEXPANDCOLLAPSE{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(0,0,0);border-bottom-width:1px;border-bottom-color:rgb(205,208,229);border-top-style:none;border-bottom-style:solid;border-left-style:none;border-right-style:none;}
+.PAGROUPBOXNBO{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(0,0,0);border-top-style:none;border-bottom-style:none;border-left-style:none;border-right-style:none;}
+.portlet-msg-info{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(0,0,196);}
+.PSACTIVETAB{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(255,255,255);background-color:rgb(74,89,140);}
+.PSLEVEL1SCROLLAREAFOOTER,.PSLEVEL2SCROLLAREAFOOTER,.PSLEVEL3SCROLLAREAFOOTER{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(255,255,255);background-color:rgb(74,89,140);border-top-width:1px;border-top-color:rgb(40,66,119);border-top-style:solid;}
+.PSLEVEL1SCROLLAREAHEADER,.PSLEVEL2SCROLLAREAHEADER,.PSLEVEL3SCROLLAREAHEADER{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(255,255,255);background-color:rgb(74,89,140);text-indent:1px;border-bottom-width:1px;border-bottom-color:rgb(40,66,119);border-top-style:none;border-bottom-style:none;border-left-style:none;border-right-style:none;}
+.PSLEVEL1GRIDLABEL,.PSLEVEL2GRIDLABEL,.PSLEVEL3GRIDLABEL{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(255,255,255);background-color:rgb(74,89,140);text-indent:1px;border-top-style:none;border-bottom-style:none;border-left-style:none;border-right-style:none;}
+.PAGROUPBOXLABELLEVEL1,.PAGROUPBOXLABELLEVEL2,.PAGROUPBOXLABELLEVEL3,.PAGROUPDIVIDER,.PSGROUPBOXLABEL{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(255,255,255);background-color:rgb(74,89,140);text-indent:1px;border-width:1px;border-color:rgb(40,66,119);border-style:solid;}
+.PSTRELLINKSHDRNARROW{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(255,255,255);background-color:rgb(74,89,140);text-indent:4px;border-top-style:none;border-bottom-style:none;border-left-style:none;border-right-style:none;}
+.PSTRELLINKSHDRWIDE{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(255,255,255);background-color:rgb(74,89,140);text-indent:4px;border-top-style:none;border-bottom-style:none;border-left-style:none;border-right-style:none;width:100%;}
+.ACEFCOLUMNHDR{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(255,255,255);background-color:rgb(92,133,179);vertical-align:top;border-width:1px;border-top-color:rgb(213,220,238);border-bottom-color:rgb(96,107,177);border-left-color:rgb(213,220,238);border-right-color:rgb(96,107,177);border-style:solid;}
+.PAFRAMEBACKGROUND{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(255,255,255);border-width:1px;border-color:rgb(74,89,140);border-style:solid;}
+.PSPGFILTERNAME{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(51,102,153);background-color:rgb(242,244,240);vertical-align:top;text-align:left;width:100px;height:17px;display:inline-block;cursor:move;overflow:hidden;}
+.PABOLDBLUETEXT{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(51,51,204);}
+.PSGRIDODDROWSORTED{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;color:rgb(0,0,0);background-color:rgb(211,220,232);border-bottom-width:1px;border-right-width:1px;border-bottom-color:rgb(255,255,255);border-right-color:rgb(255,255,255);border-bottom-style:solid;border-right-style:solid;}
+.PSGRIDEVENROWSORTED{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;color:rgb(0,0,0);background-color:rgb(233,237,244);border-bottom-width:1px;border-right-width:1px;border-bottom-color:rgb(255,255,255);border-right-color:rgb(255,255,255);border-bottom-style:solid;border-right-style:solid;}
+.PSERRORTEXT{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;color:rgb(255,0,0);}
+.PACFGRIDLABEL{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;color:rgb(255,255,255);background-color:rgb(74,89,140);text-indent:1px;}
+.portlet-font,.portlet-font-dim,.portlet-section-body,.portlet-table-footer,.portlet-table-selected,.portlet-table-subheader,.portlet-table-text,.PALEVEL0SECONDARY,.PAPAGEINSTRUCTIONS,.PSDROPDOWNLIST,.PSHYPERLINKDISABLED,.PSLEVEL1GRIDROW,.PSLEVEL2GRIDROW,.PSLEVEL3GRIDROW,.PSLONGEDITBOX,.PSSRCHINSTRUCTIONS,.PSSRCHRESULTSFOOTER,.PSSRCHTIPS,.PSTEXT,.PSQRYINSTRUCTIONS,.PSQRYRESULTSFOOTER,.PSQRYTIPS,.PSHYPERLINKDISABLED,.PSSRCHRESULTSEVENROWDISABLED,.PSSRCHRESULTSODDROWDISABLED{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);}
+.portlet-dlg-icon-label{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(184,176,144);}
+.PSMULTILANG{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(204,255,204);}
+.PSACEODDROWNB{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(211,220,232);}
+.portlet-table-alternate,.PSLEVEL1GRIDODDROW,.PSLEVEL2GRIDODDROW,.PSLEVEL3GRIDODDROW,.PSSRCHRESULTSODDROW{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(211,220,232);border-bottom-width:1px;border-right-width:1px;border-bottom-color:rgb(255,255,255);border-right-color:rgb(255,255,255);border-bottom-style:solid;border-right-style:solid;}
+.PSQRYRESULTSODDROW{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(213,220,238);border-bottom-width:1px;border-right-width:1px;border-bottom-color:rgb(255,255,255);border-right-color:rgb(255,255,255);border-top-style:none;border-bottom-style:solid;border-left-style:none;border-right-style:solid;}
+.PATEXTBACKGROUND{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(231,231,231);}
+.PSACEEVENROWNB{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(233,237,244);}
+.portlet-table-body,.PSLEVEL1GRIDEVENROW,.PSLEVEL2GRIDEVENROW,.PSLEVEL3GRIDEVENROW,.PSSRCHRESULTSEVENROW{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(233,237,244);border-bottom-width:1px;border-right-width:1px;border-bottom-color:rgb(255,255,255);border-right-color:rgb(255,255,255);border-bottom-style:solid;border-right-style:solid;}
+.PSQRYRESULTSEVENROW{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(233,237,244);border-bottom-width:1px;border-right-width:1px;border-bottom-color:rgb(255,255,255);border-right-color:rgb(255,255,255);border-top-style:none;border-bottom-style:solid;border-left-style:none;border-right-style:solid;}
+.PSLEVEL1GRID,.PSLEVEL2GRID,.PSLEVEL3GRID{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(233,237,244);border-width:1px;border-color:rgb(40,66,119);border-style:solid;}
+.PSPUSHBUTTON{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(252,252,181);cursor:hand;}
+.PSPUSHBUTTONTBCANCEL,.PSPUSHBUTTONTBCLEAR{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(252,252,181);width:62px;height:23px;cursor:hand;}
+.PSPUSHBUTTONTBLOOKUP{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(252,252,181);width:68px;height:23px;cursor:hand;}
+.PSPUSHBUTTONTBABORT,.PSPUSHBUTTONTBADD,.PSPUSHBUTTONTBAPPLY,.PSPUSHBUTTONTBCONTINUE,.PSPUSHBUTTONTBIGNORE,.PSPUSHBUTTONTBNO,.PSPUSHBUTTONTBOK,.PSPUSHBUTTONTBPREVIEW,.PSPUSHBUTTONTBRETRY,.PSPUSHBUTTONTBSEARCH,.PSPUSHBUTTONTBYES{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(252,252,181);width:70px;height:23px;cursor:hand;}
+.PSPUSHBUTTONTBDELETE{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(252,252,181);width:73px;height:23px;cursor:hand;}
+.PSERROR{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(255,102,102);}
+.PSACEEDITSELECT{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(255,255,153);border-width:1px;border-color:rgb(204,204,204);border-style:solid;width:100%;}
+.PSQRYRESULTSTITLE{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(255,255,255);}
+.PSACEEVENROW{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(255,255,255);border-top-width:1px;border-left-width:1px;border-top-color:rgb(128,128,128);border-left-color:rgb(128,128,128);border-top-style:solid;border-left-style:solid;}
+.PSACECOMBO{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(255,255,255);vertical-align:top;border-width:1px;border-color:rgb(120,172,255);border-style:solid;display:inline-block;}
+.PSACECOMBO_CHART{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(255,255,255);vertical-align:top;border-width:1px;border-color:rgb(126,158,183);border-style:solid;display:inline-block;}
+.PSPGCHARTFILTERVALUE,.PSPGFILTERVALUE{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(255,255,255);vertical-align:top;width:125px;height:17px;float:left;display:inline-block;cursor:pointer;overflow:hidden;}
+.PSPGCHARTFILTERVALUE_NARO{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(255,255,255);vertical-align:top;width:70px;height:17px;float:left;display:inline-block;cursor:pointer;overflow:hidden;}
+.PSLEVEL1GRIDNAVIGATIONBAR,.PSLEVEL2GRIDNAVIGATIONBAR,.PSLEVEL3GRIDNAVIGATIONBAR{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(74,89,140);border-top-width:1px;border-top-color:rgb(40,66,119);border-top-style:solid;}
+.PSDROPDOWNLIST_DISPONLY,.PSEDITBOX_DISPONLY,.PSDROPDOWNLISTDISABLED,.PSLONGEDITBOXDISABLED{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);border-top-style:none;border-bottom-style:none;border-left-style:none;border-right-style:none;}
+.PSEDITBOX_DISPONLY_NOWRAP{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);border-top-style:none;border-bottom-style:none;border-left-style:none;border-right-style:none;white-space:nowrap;}
+.PSACEEDIT{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);border-width:1px;border-color:rgb(204,204,204);border-style:solid;width:100%;}
+.PSEDITBOX{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);border-width:1px;border-top-color:rgb(153,153,153);border-bottom-color:rgb(204,204,204);border-left-color:rgb(153,153,153);border-right-color:rgb(204,204,204);border-style:solid;}
+.PSQRYHYPERLINK{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,0,255);}
+.PAHYPERLINKSUCCESSSTAT,.PAHYPERLINKSUCCESSSTAT:LINK,.PAHYPERLINKSUCCESSSTAT:VISITED,.PAHYPERLINKSUCCESSSTATDISABLED{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,147,132);}
+.PSEDITBOX_DISABLED,.PSEDITBOXDISABLED{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(128,128,128);border-width:1px;border-color:rgb(204,204,204);border-style:solid;}
+.PAHYPERLINKDESCR{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(153,153,153);}
+.PSPUSHBUTTONDISABLED,.PSPUSHBUTTONDISABLED{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(169,169,169);background-color:rgb(204,204,204);}
+.PAHYPERLINKWARNSTAT,.PAHYPERLINKWARNSTAT:LINK,.PAHYPERLINKWARNSTAT:VISITED,.PAHYPERLINKWARNSTATDISABLED{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(176,160,47);}
+.PSDISABLED,.PSEDITBOX_DISPONLYDISABLED,.PSEDITBOX_DISPONLY_NOWRAPDISABLED,.PSMULTILANGDISABLED,.PSPUSHBUTTONDISABLEDDISABLED,.PSSRCHSUBTITLEDISABLED,.PSTREENODESELECTEDDISABLED{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(192,192,192);}
+.PAERRORTEXT,.PAHYPERLINKERRSTAT,.PSHYPERLINKHOVER,.PAHYPERLINKERRSTAT:LINK,.PAHYPERLINKERRSTAT:VISITED,.PAHYPERLINKERRSTATDISABLED,.PSHYPERLINK:HOVER,.PSSRCHRESULTSEVENROW:HOVER,.PSSRCHRESULTSODDROW:HOVER{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(204,0,51);}
+.PSQRYHYPERLINKD{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(204,204,204);}
+.portlet-icon-label{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(255,0,0);}
+.PSINACTIVETABHOVER,.PSINACTIVETAB:HOVER{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(255,255,102);background-color:rgb(145,157,195);text-decoration: underline;}
+.PTSPELLCHECKERROR{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(255,255,255);background-color:rgb(0,0,0);}
+.PSINACTIVETAB{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(255,255,255);background-color:rgb(120,156,202);text-decoration: none;}
+.ACEFODDROW{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(255,255,255);background-color:rgb(211,220,232);border-bottom-width:1px;border-right-width:1px;border-bottom-color:rgb(255,255,255);border-right-color:rgb(255,255,255);border-bottom-style:solid;border-right-style:solid;}
+.ACEFEVNROW{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(255,255,255);background-color:rgb(233,237,244);border-bottom-width:1px;border-right-width:1px;border-bottom-color:rgb(255,255,255);border-right-color:rgb(255,255,255);border-bottom-style:solid;border-right-style:solid;}
+.PSSRCHRESULTSTITLE{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(255,255,255);background-color:rgb(74,89,140);border-width:1px;border-color:rgb(40,66,119);border-style:solid;}
+.PSHYPERLINKACTIVE,.PSHYPERLINKVISITED,.PSHYPERLINK:ACTIVE,.PSSRCHRESULTSEVENROW:ACTIVE,.PSSRCHRESULTSODDROW:ACTIVE,.PSQRYHYPERLINK:ACTIVE{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(51,51,204);}
+.PAHYPERLINKLVL1ODD{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(51,51,204);background-color:rgb(213,220,238);}
+.PSHYPERLINKYELLOWBKGRD{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(51,51,204);background-color:rgb(255,255,0);}
+.PSHYPERLINK,.PSHYPERLINK:LINK,.PSHYPERLINK:VISITED,.PSSRCHRESULTSEVENROW:LINK,.PSSRCHRESULTSEVENROW:VISITED,.PSSRCHRESULTSODDROW:LINK,.PSSRCHRESULTSODDROW:VISITED{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(51,51,204);border-top-style:none;border-bottom-style:none;border-left-style:none;border-right-style:none;}
+.PTMENULINK{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;text-decoration: none;}
+.portlet-section-alternate,.PAHELPGRIDHEADER{font-family:Arial,serif;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(255,255,255);background-color:rgb(0,0,0);text-indent:1px;}
+.PAHELPGROUPDIVIDER{font-family:Arial,serif;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(255,255,255);background-color:rgb(126,135,186);text-indent:1px;}
+.PSTLEFTMENU{font-family:Arial;color:rgb(0,0,0);background-color:rgb(204,204,153);border-top-width:1px;border-bottom-width:1px;border-right-width:1px;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-right-color:rgb(0,0,0);border-top-style:solid;border-bottom-style:solid;border-right-style:solid;}
+.PSPGCHARTBORDER{font-family:Arial;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(255,255,255);background-color:rgb(74,89,140);text-indent:1px;border-width:1px;border-color:rgb(40,66,119);border-style:solid;}
+.portlet-section-footer,.PSPSMALLTEXT{font-family:Arial;font-size:9px;font-weight:500;color:rgb(0,0,0);}
+.PSGRIDCOUNTER{font-size:80%;text-decoration: none;}
+.Z,DEV,SPAN,TD,TR,TH,PRE,LABEL{font-size:x-small;margin-top:0px;margin-bottom:0px;}
+.PSBOTTOMLINE{height:2px;}
+.PTBREADCRUMBMARGIN{margin-left:6px;}
+.PSLEVEL1SCROLLAREABODYNBO,.PSLEVEL2SCROLLAREABODYNBO,.PSLEVEL3SCROLLAREABODYNBO{margin:1px;border-top-style:none;border-bottom-style:none;border-left-style:none;border-right-style:none;}
+.PSLEVEL1SCROLLAREABODYWBO,.PSLEVEL2SCROLLAREABODYWBO,.PSLEVEL3SCROLLAREABODYWBO{margin:1px;border-width:1px;border-color:rgb(74,89,140);border-style:solid;}
+.PTTRANSPARENT{position:Absolute;}
+.PSACECOMBOIMG{vertical-align:middle;}
+ 

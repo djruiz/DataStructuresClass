@@ -1,0 +1,150 @@
+Daniel Ruiz
+C343
+5/22/2019
+
+hw03
+
+Began by creating the project and making my three classes
+for model, view, and controller
+
+in the model I used my int2darray class created in a previous class
+
+In the constructor of the model I created an instance of the int2darray class.
+I use this object in order to get and return the 2 d array as well as randomize the array.
+I wrote new helper methods in my int2darray class to accomplish this.
+
+To get a new random number between -255 to 255 I used a random object's nextInt() method
+I passed (255 + 1 + 255) then subtracted 255 from the random number effectively creating a range I wanted
+
+I also made the model observable as well as making my controller an observer
+
+I gave the model two methods I need to finish sortRows() and sortCols() but I made to sure to add
+notifyObservers calls
+
+In my controller class I made a constructor and in that constructor a model is created using the
+width and height input and it adds itself as an observer of the model
+
+My view was also given a constructor to save the width and height.
+
+I created my drawpoint function in my view that allowed me to draw on the jframe.  IN the function I made use of Math.min
+and Math.max for generating values between 0 and -255 and 0 and 255
+
+I then created my controller class and decided to pass my model and view as arguments into the constructor
+and assigned them as instance variables
+
+
+I also used bubble sort to sort my arrays.
+
+
+6.
+a.  Yes the 2d array is fully sorted.  The arrangments of colors shows this to be true as it goes from red to black in the middle then green.
+Just to double check I printed out each array in the 2d array to check and compare values.
+
+b.  Yes the 2d array is fully sorted.  The arrangments of colors shows this to be true as it goes from red to black in the middle then green.
+Just to double check I printed out each array in the 2d array to check and compare values.
+
+c. I used bubblesort to sort. which has a worst case run time of O(n^2)  however I had to run it within a for loop 
+to extract rows and cols when sorting. both sortArray1() and sortArray2() make use of this same methodd of sorting which has a 
+O(n^3) run time due to bubble sorting within a for loop.
+
+d.
+sortArray1 had a run time of: 4761746310
+sortArray 2 had a run time of: 4760131660 
+My methods did not differ substantially in run times.
+
+C. 
+
+1.
+
+5.7
+
+printLevelOrder(node root){
+	
+	String levelOrderString;
+	Queue test = new Queue<Node>;
+	test.enqueue(root)
+
+	Node nextNode;
+	do{
+		nextNode = test.dequeue();
+		levelOrderString += nextNode.value();
+		if(nextNode.left != null){
+			test.enqueue(nextNode.left)
+		}
+		if(nextNode.right != null){
+			test.enqueue(nextNode.left)
+		}	 	
+	}
+	while(!test.isempty())
+	
+	
+}
+
+2.
+5.14 
+
+Strict adherence to this rule allows us as programmers to make more precise assumptions when it comes to our algorithims.
+A fault in understanding this rule in searching a tree can result in a malfuctioning method.  If the programmer does check both branches then this could
+result in unneccesarily entended searching time.  It is better to be transparent and clear when it comes to widely used and commonly known Data Structures
+
+
+3. 
+5.15 a.
+			[15]
+           
+	[5]					[20]
+		
+		[7]			[18]		[25]
+				
+				[16]	
+	
+
+b. 
+
+Inorder Traversal( left, root, right): 5, 7, 15, 16, 18, 20, 25
+PreOrder Traversal( root, left, right): 15, 5, 7, 20, 18, 16, 25
+PostOrder Traversal( Left, Right, Root): 7, 5, 16, 18, 25, 20, 15
+
+
+4.
+5.24
+The smallest element will be on the last level of either the right or left subtree from the root
+
+5.
+
+5.32 
+(a) 2 linked list with no order maintained -- because inserts have greater key value than last and a linked list will not have to reallocate space for more objects.  because the records
+ are sorted before entering our data structure , searching will still take log n time
+(b) 3 binary search tree - most of the operations are insertions.  However while inserting into an unsorted linked list or array would be fast, searching through the 
+1,000,000 insertions will take much longer than doing it through a reasonably balanced BST structure
+(c) 1 sorted linked-list provides a a way to insert o(n) and search O(log n)  
+(d) 3 BST records arrive randomly and require a large amoutn of searches.  BST will allow us to search very quickyl
+
+
+D.
+
+	1. By using PostOrder traversal we can stop once we have hit the k-th element or k-th node.  This will be the k-th smallest value
+		due to the way that post order hits nodes while traversing
+	2. 
+
+
+kthsmallest(int k, node current){	
+	int[] valuesUpToK = new int[k];
+	if(current != null){
+		kthsmallest(k, current.left);
+		kthsmallest(k, current.right);
+		valuesUpToK.add(current.data);
+		if(valuesUpToK.length == k){
+			return valuesUpToK[k - 1];
+		} 
+	}
+			
+}
+
+
+
+
+
+
+
+

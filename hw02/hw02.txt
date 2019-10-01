@@ -1,0 +1,205 @@
+C343 5/16/19
+Daniel Ruiz
+hw02
+
+A. 
+
+created a new method in my int2darray class to initalize random values from 0 to 256
+Called that method in the action performed class to have it called several times and give elements in the array different random values at each iteration
+In a for loop in the paintComponent moethod I used a color object to have each array value represent a color and drew an oval at the x and y location
+
+
+
+2. 
+4.1
+
+list.next()
+list.next()
+list.remove()
+
+the pointer is currently on the 2, it needs to move twice to be pointed at the element 15 at which point we can call remove
+
+3.
+4.11
+
+n: elements in list
+P: size of pointer
+E: size of data
+D: max # of list elements
+
+breakpoint: n > DE/(P + E)
+
+(a) 
+
+E = 8
+P = 4
+D = 20
+
+n > DE/(P + E)
+n > 20(8)/(4 + 8)
+n > 160/12
+n > 13.3
+14 > 13.3
+
+14 is the breakpoint because a linked list takes up n(P + E), or 168 bits space
+while an array implementation takes up DE, or 160 bits of space
+
+(b)
+
+E = 2
+P = 4
+D = 30
+
+n > DE/(P + E)
+n > 60/6
+n > 10
+11 > 10
+
+11 is the breakpoint because a linked list takes up n(P + E), or 66 bits of space
+while an array implementation takes up DE, or 60 bits space
+
+
+(c)
+
+E = 1
+P = 4
+D = 30
+
+n > DE/(P + E)
+n > 30(1)/5
+n > 6
+7 > 6
+
+7 is the breakpoint because a linked list takes up n(P + E), or 35 bits of space
+while an array implementation takes up DE, or 30 bits of space
+
+(d)
+
+E = 32
+P = 4
+D = 40
+
+n > DE/(P + E)
+n > 40(32)/36
+n > 1280/36
+n > 35.5
+36 > 35
+
+36 is the breakpoint because a linked list takes up n(P + E), or 1296 bits of space
+while an array implementation takes up DE, or 1280 bits of space
+
+C.
+
+2.
+
+3.3
+
+From slowest to fastest: n!, 3^n, 4n^2, 20n, n^2/3, log base2 n, log base3 n, 2
+
+I found this out by looking over growth rate graphs and then testing with n = 500
+500! = 4.0238726E+2567
+3^500 = 3.636029e+238
+4(500)^2 = 1000000
+20(500) = 10000
+500^(2/3) = 63
+log base2 500 = 9
+log base3 500 = 6
+2 = 2
+
+3.8
+a. c1n
+
+Big O: f(n) <= c * g(n)
+
+f(n) = c1n
+g(n) = n
+h(n) = n
+
+c1n <= c * n
+
+c= c1 + 2
+c1n <= c1 + 2 * n
+n <= 2 * n
+n0 = 1
+
+
+Big Omega
+f(n) >= c * h(n)
+c1n >= c * n
+
+c = c1 - 1
+c1n >= c1 + 1 * n
+n >= 1 * n   true
+also true for 0
+n0 = 1
+
+
+b. c2n^3 + c3
+
+f(n) = c2n^3 + c3
+g(n) = n^3
+h(n) = n^3
+
+Big O: f(n) <= c * g(n)
+c2n^3 + c3 <= c * n^3
+c = c2 * c3 + 2
+
+c2n^3 + c3 <= (c2 * c3 + 2) * n^3
+n^3 <= 2 * n^3
+
+
+
+Big Omega
+f(n) >= c * h(n)
+c2n^3 + c3 >= c * n^3
+c = (c2 * c3 + 1)
+
+c2n^3 + c3 >= (c2 * c3 + 1) * n^3
+n^3 >= 1 * n^3
+also true for 0
+n0 = 1
+
+
+c. c4nlogn + c5n
+
+f(n) = c4nlogn + c5n
+g(n) = nlogn
+h(n) = nlogn
+
+Big O: f(n) <= c * g(n)
+c4nlogn + c5n <= c * n log n
+c = c4logn + c5n
+
+c4nlogn + c5n <= c * n log n
+n0 = a = base of the log
+
+
+
+
+
+Big Omega
+c4nlogn + c5n <= c * n log n
+c = c4logn
+
+c4nlogn + c5n >= c4 * n log n
+n0 = a = base of the log
+
+3.12
+
+(i)
+sum = 0;	O(1)
+if( EVEN(n))	O(1)
+		if will trigger O(log n) times 
+	for(i = 0; i <n; i++)	O(n + 3)
+		sum++		O(1)
+else
+	sum = sum + n; O(1)
+
+best case: O(n)
+Worst case: O(logn)
+
+
+
+ 
+
+

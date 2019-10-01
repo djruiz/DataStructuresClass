@@ -1,0 +1,13 @@
+B.  Completed a hammingdistance class that has a method to generate and compare strings of input n length
+in the method iterated using a for loop to check each index position of both strings and kept 
+a total of the differences between the two strings
+
+3.12
+(a)O(1) - both lines do simple assignment which takes constant time
+(b)O(n) - there are nested for loops but the first only runs a constant time of 3 while the second runs potentially n times
+(c)O(n^2) - only one for loop but runs until i < n*n giving it a O(n^2) run time
+(d)O(n^2) - nested for loops second has j initialized to i+1 but still has a constant of n so n^2
+(e)O(n^2) - first for loop runs n times while second runs n/2
+(f)O(n^2) - nested for loops first runs o(n/2) second runs O(n)
+(g)O(n^2) - even though the array is sorted at start of the second loop, it runs through the whole input twice
+(h)O(n^2) - the array holds random values so A[i] could be the last element

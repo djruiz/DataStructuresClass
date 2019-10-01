@@ -1,0 +1,26 @@
+#iuhdrlogo {float left;width: 290px;height: 45;margin:0;padding:0 5px 0 0;background:none;}#iuhdrlogo:before {content: url(/cs/SSERV/cache/IU_LOGO_1.GIF);left: 0px;position: relative;top: 0px;}#pthdr2syslinks.pthdr2syslinks .PSHYPERLINK,#pthdr2syslinks.pthdr2syslinks .PSHYPERLINK:link,#pthdr2syslinks.pthdr2syslinks .PSHYPERLINK:visited {	color:black;}#IU_HDR_PRINT {font-weight: bold;}// Move Greeting Banner to make room for environment logo#pthdr2container.pthdr2container #ptgreetingmessage.greeting {position: absolute;right: 0;bottom:0;}#pthdr2container.pthdr2container #iudbname.iudbname {position:absolute; top: 20px; left: 100px;color: red;font-family: Arial,Helvetica,sans-serif;font-size: 10pt;font-weight: bold;}
+#pthdr2container.pthdr2container {
+background-image: none;
+}
+#ptsearchbox.ptsearchbox {
+    padding-left: 400px !important;
+}
+#pthdr2advsrch {
+    color: black !important;
+}
+
+
+#pthdr2srchprompt_GBL {
+    display: none;
+    color: black !important;
+}
+a#selsrchgrp span {
+    margin: 0px 0px 0px 0px !important;
+    padding-left: 5px !important;
+}
+
+
+input.pthdr2srcheditgbl {
+    margin: 0px 0px 0px 0px !important;
+    padding-left: 5px !important;
+}
