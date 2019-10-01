@@ -1,0 +1,151 @@
+Daniel Ruiz
+C343
+6/6/2019
+hw07
+
+A.
+
+completed the subset problem in both a recursive and dynamic method and created
+tests using a random array generator.
+
+for recursion tracked through the n sized list of ints and used the number my counter was currently on and didnt use
+it in two cases which is what causes the branaching that gives the method 2^n complexity
+
+the dynamic programming called for an n x m size matrix that used previous entries to check if 
+certain numbers were subsets of k
+
+
+B.
+
+
+2.
+[56, 7, 28, 7, 35, 63, 14, 42, 35]
+
+a. insertion sort
+
+[56, | 7, 28, 7, 35, 63, 14, 42, 35]
+
+[7, 56, | 28, 7, 35, 63, 14, 42, 35]
+
+[7, 28, 56, |  7, 35, 63, 14, 42, 35]
+
+[7, 7, 28, 56, | 35, 63, 14, 42, 35]
+
+[7, 7, 28, 35, 56, | 63, 14, 42, 35]
+
+[7, 7, 28, 35, 56, 63, | 14, 42, 35]
+
+[7, 7, 14, 28, 35, 56, 63, | 42, 35]
+
+[7, 7, 14, 28, 35, 42, 56, 63, | 35]
+
+[7, 7, 14, 28, 35, 35, 42, 56, 63]
+
+
+b. MergeSort
+
+[56, 7, 28, 7, 35, 63, 14, 42, 35]
+
+[56, 7, 28, 7]     [35, 63, 14, 42, 35]
+[7, 56] [7, 28]    [35, 63] [14, 35, 42]
+[7, 7, 28, 56]     [14, 35, 35, 42, 63]
+
+compare first of right and left and enter into orig array
+[7, 7, 14, 28, 35, 35, 42, 56, 63]
+
+
+3.
+A sorting algorithim is stable if it maintains its relative order, meaning that objects that have 
+equal value maintain their order relative to one another once sorted
+
+
+
+4. 
+
+a. IS - Stable
+when placing the next value from the unsorted array into the sorted one
+the value will follow after a value of equal value that is already in the sorted array
+the sorted array is also started to be built from position 1 ensuring relative order
+
+b. Bubble S - Stable
+Works from the beginning of the array and does not perform swaps on equal value objects
+ensuring that the relative order is maintained
+
+c. MS - Stable
+Two halfs are sorted by being broken down recurively then merged
+when the sorting and merging occurs the left side is considered before the right ensuring an
+object of equal value would precede any object of equal value coming from elsewhere
+
+D. HS - Not Stable
+A heap is created and used to sort the items.  When this heap is created all previous ordering of 
+elements is lost and cannot be referenced.  Leading to a loss of relative order.  It would be not be possible to distinguish
+an item of equal value from a another in the heap
+
+
+5.  
+
+   	   F   E   C   A   B   D
+	 |---------------------------
+	F|     1   1   1
+	E| 1       1           1
+	C| 1   1       1   1
+	A| 1       1       1
+	B|         1   1       1
+	D|     1           1
+
+
+6.
+	AdjList
+F	[E C A]
+E	[F C D]
+C	[F E A B]
+A	[F C B]
+B	[C A D]
+D	[E B]
+
+
+
+
+
+7.
+
+P = 4
+V = 1
+EP = 1
+
+Matrix = 36 - bc 36 edge absences/presences
+AdjList
+12 Pointers = 48 bits
+18 labels = 36 bits
+82 bits
+
+List requires more space for this graph
+
+8.
+
+
+P = 2
+V = 1
+EP = 1
+
+Matrix = 36 - bc 36 edge absences/presences
+AdjList
+12 Pointers = 24bits
+18 labels = 18bits
+42 bits
+
+List requires more space for this graph
+
+9.
+DFS start at E
+E F C A B D
+
+
+
+10.
+BFS start at E
+E
+F C B
+A B
+
+

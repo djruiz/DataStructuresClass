@@ -1,0 +1,25 @@
+﻿Homework 06
+Daniel Ruiz
+6/3/2019
+C343
+
+Making my floodIt method
+- checked all neighbors of the elements in my flooded linked list
+- made sure that they were on the board and not already in the flooded linked list
+- if it met these conditions I checked to see if it matched the color that was selected
+ - if it did then I added it to the linkedlist of flooded coordinates
+
+my floodfill method iterates over the whole list of flooded elements and checks each for these conditions
+so the method takes O(n), n being the amount of coordinates currently in the flooded list which in the worst case
+will be k - 1, k being all coordinates in game
+
+
+for my autoplay method
+-wrote a greedy algorithim
+-I checked each member of the flooded linked list and kept track of neighbors colors
+-made sure they were on board and not in the list already
+- kept an array whose indexes represented colors and values represented the total occurences
+  of colors seen by neighbors to coordinates in the flooded list
+- the index with the largest value becomes the color that my autoplay chooses at each turn ensuring that
+  at each turn the largest possible amount of tiles is added to the flooded region.
+

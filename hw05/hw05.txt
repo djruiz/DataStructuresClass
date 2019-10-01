@@ -1,0 +1,18 @@
+﻿Daniel Ruiz
+C343
+5/30/19
+
+
+Count Sort step:
+iterate over given array of size n and find maximum value
+Create another array of size k where k = max(n)
+iterate over the given array and increment indexes that match values being iterated over in the k size array
+then add all elements in the k size array at i, starting at index 1, with the element in i - 1
+this will give us a look up table for where elements need to be inserted into the returned list
+to be sorted and maintain their relative order
+we then iterate backwards through the original array and use our look up table to place them in the correct 
+index in the array to be returned
+we do this by going to the index that matches the current i in the original array and decrementing the value stored at the index
+and using the decremented value to place the value from the original array into the index, the decremented value
+
+my program broke at around 500,000,000
