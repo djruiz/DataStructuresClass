@@ -1,0 +1,25 @@
+Daniel Ruiz
+5/9/2019
+Lab 03 Notes txt File
+
+created a public interface DeckADT
+
+chose methods initialize(), drawRandomCard(), drawTopCardFromDeck(), and pushCardonBottomofDeck
+
+I decided to model my deck using an ArrayList
+
+when initializing I chose to use a for loop that ran from 1 to 13
+I used a switch case that added 4 new cards to the deck at each for loop iteration
+I added cases to 1, 11, 12, and 13 to represent facecards and aces
+
+drawRandomCard() - used random object to generate a number between 0 and 52 and returned and removed the card at the corresponding position
+
+drawTopCardFromDeck() - removed and returned first element of the deck
+
+pushCaronBottomofDeck - simple add using built in arraylist method
+
+in tweeter used an array list to string together TweetClass objects
+
+add() used arraylist add method
+get() tweetclass checked each tweetclass author and returned if it matched the string
+remove() checks each tweetclass and check their authors to see if a match, if so remove the tweetclass from thetweeter

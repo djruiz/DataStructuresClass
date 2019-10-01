@@ -1,0 +1,50 @@
+Daniel Ruiz
+5/ 23/ 2019
+
+A. 
+
+
+	 100%
+	 /  50%
+    0	/  /	\
+       /  /	15%	
+      A   T	/ \
+		C  G
+A - 1 byt
+T - takes 2byts
+C - takes 3 bits
+G - takes 3 bits
+
+.5 * 1 + .35 * 2 + .10 * 3 + 0.05 * 3
+--------------------------------------      =       1.65
+		1
+
+.35 * 2 = 0.6
+.3
+.15
+
+
+compressed = 1.65
+uncompressed = 2
+
+
+B.
+
+the huffman tree is built by iterating through the min heap and attaching the two min values to a node
+that holds the sum of their frequencies which are then placed back into min heap then these nodes are combined to other existing trees
+the last node in the min heap will be the root
+
+used recursion to build my table
+ 
+wrote a helper function that takes a node and a str as arguments.
+I call the helper on root in the original function.
+It then checks to see if the given node is null and returns nothing if it is
+then it checks to see if the left is null, if it is not then we know there are values on
+the left and right side of the tree.  So we call the helper on both the left and the right
+when we call it to the left we add 0 to our builder and we add 1 to our builder if it is right
+if left is null then we are at a leaf and we add a value to our codetable
+
+
+in decode we use the encoded string as a path in our tree.
+If it is a leaf then we get the value at the current node and add it to our out string
+then reset the current node to root to continue our path

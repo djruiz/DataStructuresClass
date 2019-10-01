@@ -1,0 +1,62 @@
+C343 5/16/2019
+Daniel Ruiz
+Lab07
+
+A.
+Static Array
+
+N: size of the array
+i: index given
+
+-Best Case: O(1) 
+-Average: O(1)
+-Worst Case O(1)
+
+Removing an item in a static array is constant because we can derive the index position
+in constant time which allows us to access and change the specified index to null in constant time
+
+
+Dynamic Array
+-Best Case: O(1) - if it is last index no elements need to shifted
+-Average Case: O(n) - will take o/2 time on average, if index is in the middle, half of the elements need to be shifted
+-Worst Case: O(n) - if it is the first element of the array all n elements must be shifted  
+
+
+B.
+Static Array remove
+use given index to access and change array index value to null
+
+created an array of Integers
+created a method to fill the array
+implemented the removeAt by using an input index to immediately change the value to null
+created a to string to test
+
+
+Dynamic Array
+Used an arraylist but used my own custom removeAt method to follow the method we were meant to design
+kept a class instance variable of size to manually keep track of
+
+to remove I loop through the array list starting at the given index and change it to the item
+that is one index ahead of it in the arraylist
+
+At the end of the loop I use the arraylist's remove method to get rid of the last element of the arraylist
+then I decrement size.
+
+
+C. 
+
+The static version of removeAt() does not actually get rid of the element in the array.  So while
+an element's value may be disposed of, the array still holds a null value in its place
+This also keeps the array the same size
+So conceptually the programmer must remember which values were removed bc those values will be null
+This could become problematic because whenever an item is removed the programmer must remember that there is now a null
+value at that specific spot.  So for methods that involve a lot of removal the programmer must think of this every single time they remove
+
+
+In a game that kept track of stats of the players avatar with an array.  Certain occurences could happen that would warrant the specific stat to be removed.
+However we do not want to delete that index because each index of the array represents an important stat to the character.  The player could also do something to get that stat back so its advantageous to keep that index as a null
+value in the mean time
+
+
+
+ 

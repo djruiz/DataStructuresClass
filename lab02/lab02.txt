@@ -1,0 +1,52 @@
+Daniel Ruiz
+C343
+lab02
+
+Using Example 2 from lecture
+
+int sum2 = 0;
+        for(int i = 1; i <= n; i++){
+            for(int j = 1; j <= n; j++){
+
+                sum2++;
+            }
+        }
+        return sum2;
+    }
+
+
+Table
+------------------------------------
+
+n = 10 instructioncounter = 100 (instructioncounter / n) = 10
+n = 100 instructioncounter = 10000 (instructioncounter / n) = 100
+n = 1000 instructioncounter = 1000000 (instructioncounter / n) = 1000
+n = 10000 instructioncounter = 100000000 (instructioncounter / n) = 10000
+n = 100000 instructioncounter = 1410065408 (instructioncounter / n) = 14100
+n = 1000000 instructioncounter = -727379968 (instructioncounter / n) = -727
+
+I was unable to make sense of example 7 but i tried to fill 2 arrays to be the length of n and run for loops to fill them
+
+//System.out.println("n = " + n + " instructioncounter = " + sum2 + " (instructioncounter / n) = " + sum2 / n);
+        int a[n], int b[n];
+        for(int z = 0; z < a.length; z++){
+            a[z] = ;
+        }
+
+        for(int z = 0; z < b.length; z++){
+            b[z] = Math.random() * 10;
+        }
+
+        int m = 10;
+        int d[0][0] = 0;
+        for(int i = 1; i <= m; i ++)  {
+            for(int j = 1; j <= n; j ++) {
+                if(a[i] == b[j]) int c = 0;
+                else int c = 1;
+                d[i][j] = Math.min(d[i-1][j] + 1, d[i][j-1] + 1, d[i-1][j-1]+c);
+            }
+        }
+
+
+        return sum2;
+    }

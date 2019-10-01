@@ -1,0 +1,39 @@
+lab09
+
+Daniel Ruiz
+C343
+5/22/2019
+
+
+used recursion for the find function and used pre order to go through the tree.
+
+
+created a treeHeight() function that returned 0 when given a null node and otherwise returned the max
+of treeheight on both left and right nodes + 1
+
+I used treeheight to get the difference betweent the left and right tree from the root.
+If the difference is less than 1 then the method returns true to indicate it is balanced.
+
+5.5
+
+a.
+left root right
+
+void inorder(binnode rt)
+{
+	if(rt == null) return;
+	inorder(rt.left);
+	visit(rt);
+	inorder(rt.right);
+}
+
+b. 
+
+left right root
+void postorder
+{
+	if(rt == null) return;
+	inorder(rt.left);
+	inorder(rt.right);
+	visit(rt);
+}

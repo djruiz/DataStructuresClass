@@ -1,0 +1,20 @@
+Daniel Ruiz
+C343
+Lab 06
+5/15/2019
+
+created an array list to hold tweets in my tweets collection class
+
+I created two methods for the tweet collection class outside of basic arraylist operations
+
+One to find tweets by a certain author and one to return tweets where a given user is mentioned
+- both of these methods return an tweetcollection object holding tweet objects that fit the criteria
+
+To parse through tweets I used substring method and indexof method to seperate author from content based on the first space to create a tweetcollection object to test on
+
+to find tweets by a given author I looped through the tweet collections arraylist and created a getAuthor mehtod in the tweets class.
+I compared each tweets author at a given index in the collection to the given author
+
+to find all tweets with a user mentioned I looked through each tweet looking for an @ symbol then used the size of the given username to check
+that substsring following the @ sign.  if the user name matches I add it to the tweetcollections object to be returned
+

@@ -1,0 +1,22 @@
+ADT for a two-dimensional array of integers
+
+- get(x, y) returns element at given index
+- set(value, x, y) assigns value to given index
+- getRow(row) returns specified row as an array
+- getCol(col) returns specified col
+- setRow(value, row) sets all indexes of a given row to a given int value
+- setCol(value, row) sets all indexes of a given col to a given int value
+
+
+When implementing the class I stored an instance variable in the class of a 2d array
+I initialized this array in the constructor using input to let the user decide the size
+I also used my zero array to fill the array with values in the constructor
+
+used lists accessing method to return get and set
+
+for getRow accessed array array[userInput]
+
+for getCol used a for loop loop to access all rows at the specified col
+
+setCol - same method as getCol but assign a value during the for loop.  User gives an int to fill the specified col with
+setRow - for loop to set all items in a row equal to a user given int 

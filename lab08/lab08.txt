@@ -1,0 +1,29 @@
+Daniel Ruiz
+C343
+5/21/2019
+
+Lab08
+
+Began by creating the project and making my three classes
+for model, view, and controller
+
+in the model I used my int2darray class created in a previous class
+
+In the constructor of the model I created an instance of the int2darray class.
+I use this object in order to get and return the 2 d array as well as randomize the array.
+I wrote new helper methods in my int2darray class to accomplish this.
+
+To get a new random number between -255 to 255 I used a random object's nextInt() method
+I passed (255 + 1 + 255) then subtracted 255 from the random number effectively creating a range I wanted
+
+I also made the model observable as well as making my controller an observer
+
+I gave the model two methods I need to finish sortRows() and sortCols() but I made to sure to add
+notifyObservers calls
+
+In my controller class I made a constructor and in that constructor a model is created using the
+width and height input and it adds itself as an observer of the model
+
+My view was also given a constructor to save the width and height.
+
+

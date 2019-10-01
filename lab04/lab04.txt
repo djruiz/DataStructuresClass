@@ -1,0 +1,25 @@
+Lab04 Annotations
+
+Java Properties on my machine:
+java.vm.version is 11.0.2+9
+java.vm.vendor is Oracle Corporation
+java.vm.name is OpenJDK 64-Bit Server VM
+java.vm.specification.version is 11
+java.vm.specification.vendor is Oracle Corporation
+java.vm.specification.name is Java Virtual Machine Specification
+java.version is 11.0.2
+java.vendor is Oracle Corporation
+
+Students portion of lab
+-----------------------------------
+I decided to give students two properties a major and a nem
+gave it a constructor to requrie a name to identify the student
+
+
+Then gave the class a method to set the major
+
+Added getter functions to get the name of students and the major
+
+I then created a toString method to test students and used my get methods to return a string neatly formatted with the students name and major
+
+I then created an array of students and created 3 student instances and tested them all by printing each student in the array
