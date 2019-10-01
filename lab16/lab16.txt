@@ -1,0 +1,11 @@
+Lab 16
+Daniel Ruiz
+C343 
+6/5/2019
+
+I created an array that was size nxn, n being the total amount of vertices in the graph
+I set the diagnoal equal to 0 because any nodes distance to itself will be 0
+
+Then I used the adjacency list to fill out the nxn matrix with 1s where vertices have direct paths to one another
+Then I used 3 nested for loops that checked to see if there were shorter paths between other vertices connected to it.
+I also had to make sure that the other paths were not max value already

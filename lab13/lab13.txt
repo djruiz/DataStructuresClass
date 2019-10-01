@@ -1,0 +1,11 @@
+lab 13
+
+made my class extend comparable for generic data types
+implemented the psuedo code
+	algorithim cuts the array in half then checks the value agaisnt the partition element
+	this comparison decides whether the right or left sub array is used for the next step which is 
+	running the first step on the smaller sub array
+	changed the comparison part of the algorithim to use the generic types
+	compareTo.method
+
+

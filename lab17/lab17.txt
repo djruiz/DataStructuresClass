@@ -1,0 +1,7 @@
+﻿Daniel Ruiz
+C343
+6/6/2019
+lab 17
+
+completed the subset problem in both a recursive and dynamic method and created
+tests using a random array generator.

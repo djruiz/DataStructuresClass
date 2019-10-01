@@ -1,0 +1,16 @@
+﻿Daniel Ruiz
+C343
+5/31/19
+
+
+Lab14
+
+Used an arraylist of linked lists to hold my 'bins'
+went through the new arraylist and initialized empty linked lists
+then iterated over input array and use the value to access that index value of my array of linked list
+and added that value to the linked list in that index
+once this loop is completed we have all the numbers in sorted order and jsut need to take them from
+their linked list and change the values of the original list
+you can do this by looping over the arraylist and using a while loop to check that the linkedlist
+is empty, if it is not use pop to remove an element and place it into the next avaliable index in the original array
+----- used counter to track next avaliable index.

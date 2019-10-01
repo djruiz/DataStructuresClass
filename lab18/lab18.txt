@@ -1,0 +1,14 @@
+lab18
+Daniel Ruiz
+6/7/2019
+
+
+created the two helper funcitons 
+relax - which takes two vertices and compares the possible distances to get to one of the nodes
+minVertex - initializes a value to first unvisted vertex and compares this to the rest of the unvisited
+to get the smallest distance
+
+wrote an implementation of dijkstra based on the text book psuedocode using these two helper functions
+
+
+wrote tests
